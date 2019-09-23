@@ -1,8 +1,8 @@
 # Deny access to wp-config.php
 # https://codex.wordpress.org/Hardening_WordPress
 <files wp-config.php>
-order allow,deny
-deny from all
+Order Allow,Deny
+Deny from all
 </files>
 
 # Block the include-only files
