@@ -2,5 +2,5 @@
 # https://codex.wordpress.org/Hardening_WordPress
 # Remove if PHP executions are required in 'uploads' directory
 <files ~ "\.ph(?:p[345]?|t|tml)$">
-deny from all
+Deny from all
 </files>
